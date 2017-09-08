@@ -54,16 +54,22 @@
 
 .work-title {
 	margin:0;
+	width:100%;
+	-ms-flex: 0 1 auto;	
 }
 
 .work-services {
 	margin:8px 0 0 0;
 	color: $color-body-light;
 	font-size:1em;
+	width:100%;
+	-ms-flex: 0 1 auto;
 }
 
 .work-summary {
-	margin:16px 0 0 0;	
+	margin:16px 0 0 0;
+	width:100%;	
+	-ms-flex: 0 1 auto;
 }
 
 .work-details .button {
