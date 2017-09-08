@@ -38,10 +38,13 @@
 .hero-background {
 	position: absolute;
 	right:-30%;
-	bottom:0;
+	bottom:-5%;
 	mix-blend-mode: multiply;
 	opacity: 0.7;
 	display: none;
+	@include respond($breakpoint-padding-sm) {
+		bottom:0;	
+	}
 }
 
 @supports (mix-blend-mode: multiply) {
