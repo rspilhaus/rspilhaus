@@ -3,13 +3,25 @@
 	<head>
 	<link href='https://fonts.googleapis.com/css?family=Rubik:700|Source+Code+Pro:400' rel='stylesheet' type='text/css'>	
 		
+		<!--
+			 _    _ _____   _______ _    _ ______ _____  ______ 
+			| |  | |_   _| |__   __| |  | |  ____|  __ \|  ____|
+			| |__| | | |      | |  | |__| | |__  | |__) | |__   
+			|  __  | | |      | |  |  __  |  __| |  _  /|  __|  
+			| |  | |_| |_     | |  | |  | | |____| | \ \| |____ 
+			|_|  |_|_____|    |_|  |_|  |_|______|_|  \_\______|
+			                                                    			
+			I see you checking out my source code, so let me make it a little easier for you - 
+			Go to https://github.com/rspilhaus/rspilhaus for all that sweet, sweet, unprocessed code. 	
+		-->
+		
 		<!-- Meta Info -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">		
-		<meta name="description" content="Site Description">
-		<meta name="og:title" content="Site Name">
-		<meta name="og:description" content="Site Description">
+		<meta name="description" content="Website for Ryan Spilhaus. I’m a Front-End Developer in the Kansas City area.">
+		<meta name="og:title" content="Ryan Spilhaus Dot Com | Front-End Developer + Designer">
+		<meta name="og:description" content="Website for Ryan Spilhaus. I’m a Front-End Developer in the Kansas City area.">
 		<meta name="og:image" content="/build/images/facebook.jpg">
 		
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
