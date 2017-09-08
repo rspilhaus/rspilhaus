@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+//! Fonts
+// -----------------------------------------------------------------------------
+
+$font-headings: 'Rubik', Arial, Helvetica, Sans-serif;
+$font-body: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
+
+// -----------------------------------------------------------------
+//! Main Container Widths
+// -----------------------------------------------------------------
+
+$container-width: 1680px;
+
+// -----------------------------------------------------------------------------
+//! Colors
+// -----------------------------------------------------------------------------
+
+$color-primary: #2AD8D9;
+$color-body: 	#1b1b1b;
+$color-body-light:	#666666;
+$color-offwhite: #f7f7f7;
+
+// -----------------------------------------------------------------------------
+//! Breakpoints 
+// -----------------------------------------------------------------------------
+
+$breakpoint-type:	500px;
+$breakpoint-padding-lg: 1000px;
+$breakpoint-padding-md:	700px;
+$breakpoint-padding-sm:	500px;
+$breakpoint-padding-xs: 340px;
+$breakpoint-bigtext-stack: 1200px;
+$breakpoint-bigtext-full: 560px;
+$breakpoint-work-padding: 1200px;
+$breakpoint-work-stack: 900px;

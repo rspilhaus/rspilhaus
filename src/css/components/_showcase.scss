@@ -1,0 +1,24 @@
+.showcase {
+	padding: 0 0 40px 0;
+	margin:0 0 24px 0;
+	@include respond($breakpoint-padding-sm) {
+		padding: 0 24px 40px 24px;
+		margin:0 0 24px 0;
+	}
+ 	@include respond($breakpoint-padding-md) {
+		padding:0 80px 40px 80px;
+		margin:0 0 40px 0;
+	}
+	@include respond($breakpoint-padding-lg) {
+		padding:0 80px 80px 80px;
+		margin:0 0 80px 0;
+	}
+}
+
+.showcase img {
+	display: block;
+	margin:0 0 80px 0;
+	&:last-of-type {
+		margin:0;
+	}
+}

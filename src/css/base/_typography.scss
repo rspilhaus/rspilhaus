@@ -1,0 +1,130 @@
+// -----------------------------------------------------------------------------
+//! SIZING
+// -----------------------------------------------------------------------------
+
+	html { 
+		font-size: 16px; 
+	}
+	body { 
+		font-size: 1em;
+		font-family: $font-body;  
+		color: $color-body;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	
+
+// -----------------------------------------------------------------------------
+//! HEADINGS
+// -----------------------------------------------------------------------------
+
+	@mixin heading-reset() {
+		text-transform: none;
+		font-weight: normal;
+		font-style: normal;
+		font-family: inherit;
+		color: inherit;
+		letter-spacing: 0;
+		margin: 0;
+		padding: 0;
+	}
+
+	h1, h2, h3, h4, h5, h6 { 
+		font-family: $font-headings; 
+		font-weight: 700;
+		margin:1em 0;
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+	
+	h1 {
+		font-size:7em;
+		line-height: 1;
+		margin:0;
+	}
+	
+	h2 {
+		font-size:1.5em;
+		line-height: 1.3333333333;
+		@include respond($breakpoint-type) {
+			font-size:2em;
+			line-height: 1.25;
+			
+		}
+	}
+	
+	
+	
+// -----------------------------------------------------------------------------
+//! COPY
+// -----------------------------------------------------------------------------
+	
+	p { 
+		line-height: 1.5;
+		margin: 1.5em 0; 
+		font-size:1em;
+		font-family: $font-body;
+		&:first-child {
+			margin-top: 0;
+		}
+		&:last-child {
+			margin-bottom: 0;
+		}
+		@include respond($breakpoint-type) {
+			line-height: 1.6;
+			margin: 1.6em 0; 
+			font-size:1.25em;
+		}
+	}
+
+
+	a {
+		color: $color-primary;
+		text-decoration: none;
+		transition: all 0.2s ease;
+		&:hover { 
+			text-decoration: underline;
+			transition: all 0.2s ease; 
+		}
+	}
+
+	
+// -----------------------------------------------------------------
+//! Fit Text
+// -----------------------------------------------------------------
+
+.fit-text {
+	display: inline-block;
+	white-space: nowrap;
+}
+
+// -----------------------------------------------------------------
+//! SVG Accessibility
+// -----------------------------------------------------------------
+
+.accessible-svg {
+	border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+
+// -----------------------------------------------------------------
+//! Baseline Selection Colors
+// -----------------------------------------------------------------
+
+h1::selection,
+h2::selection,
+p::selection,
+a::selection,
+span::selection{
+	background: rgba($color-primary, 1);
+	color:#fff;
+}

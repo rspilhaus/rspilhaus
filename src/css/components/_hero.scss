@@ -1,0 +1,51 @@
+.hero {
+	background: $color-primary;
+	height:calc(100vh - 160px);
+	
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	padding:16px;
+	overflow: hidden;
+	@include respond($breakpoint-padding-sm) {
+		padding:24px;
+	}
+	@include respond($breakpoint-padding-md) {
+		padding:40px;
+		min-height: 760px;
+	}
+	@include respond($breakpoint-padding-lg) {
+		padding:80px;
+	}
+	
+}
+
+
+.hero-title {
+	color:#fff;
+}
+
+.hero-text-wrap {
+	position: relative;
+	width:100%;
+	@include respond($breakpoint-padding-lg) {
+		width:75%;
+	}
+}
+
+
+.hero-background {
+	position: absolute;
+	right:-30%;
+	bottom:0;
+	mix-blend-mode: multiply;
+	opacity: 0.7;
+	display: none;
+}
+
+@supports (mix-blend-mode: multiply) {
+	.hero-background {
+		display: block;
+	}
+}

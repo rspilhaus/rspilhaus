@@ -1,0 +1,30 @@
+// -----------------------------------------------------------------------------
+//! GENERAL
+// -----------------------------------------------------------------------------
+
+html {
+	height: 100%;
+	background:#fff;
+}
+
+body {
+	position: relative;
+	min-height: 100%;
+	overflow-x: hidden;
+}
+
+.wrapper {
+	max-width: $container-width;
+	width:100%;
+	margin:0 auto;
+	padding:0;
+	@include respond($breakpoint-padding-sm) {
+		//padding: 0 24px;
+	}
+	@include respond($breakpoint-padding-md) {
+		//padding: 0 40px;
+	}
+	@include respond($breakpoint-padding-lg) {
+		padding:0 80px;
+	}
+}

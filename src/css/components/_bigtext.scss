@@ -1,0 +1,47 @@
+.bigtext-wrap {
+	padding: 40px 24px;
+	margin:24px 0;
+	@include respond($breakpoint-padding-sm) {
+		padding: 40px;
+		margin:24px 0;
+	}
+ 	@include respond($breakpoint-padding-md) {
+		padding:40px 80px;
+		margin:40px 0;
+	}
+	@include respond($breakpoint-padding-lg) {
+		padding:80px;
+		margin:80px 0;
+	}
+	@include respond($breakpoint-bigtext-stack) {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+}
+
+.bigtext-wrap.is-offwhite {
+	background: $color-offwhite;
+}
+
+
+.bigtext-left {
+	width:75%;
+	@include respond($breakpoint-bigtext-full) {
+		width:50%;
+	}
+
+}
+
+.bigtext-right {
+	margin:40px 0 0 0;
+	@include respond($breakpoint-bigtext-stack) {
+		padding:0 0 0 80px;
+		width:50%;
+		margin:0;
+	}	
+}
+
+.bigtext-wrap .button {
+	margin-top:40px;
+}

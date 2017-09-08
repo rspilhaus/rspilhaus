@@ -1,0 +1,72 @@
+.work {
+	margin-top:32px;
+	padding:0;
+	@include respond($breakpoint-padding-sm) {
+		padding: 0 24px;
+	}
+	@include respond($breakpoint-padding-md) {
+		margin-top:48px;
+		padding:0 40px;
+	}
+	@include respond($breakpoint-work-stack) {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding:0 0 0 40px;
+	}
+	@include respond($breakpoint-padding-lg) {
+		margin-top:64px;	
+		padding:0;
+	}
+}
+
+.work .work-image {
+	img {
+		display: block;
+	}
+	@include respond($breakpoint-work-stack) {
+		max-width: 50%;
+		padding:0;
+	}
+}
+
+
+.work-details {
+	width:100%;
+	padding:0 80px;
+	padding:16px;
+	@include respond($breakpoint-padding-sm) {
+		padding:16px 24px;
+	}
+	@include respond($breakpoint-padding-md) {
+		padding:24px 40px;
+	}
+	@include respond($breakpoint-work-stack) {
+		width:50%;
+	}
+	@include respond($breakpoint-padding-lg) {
+		padding:40px 0 40px 40px;
+	}
+	@include respond($breakpoint-work-padding) {
+		padding:40px 80px;
+	}
+}
+
+.work-title {
+	margin:0;
+}
+
+.work-services {
+	margin:8px 0 0 0;
+	color: $color-body-light;
+	font-size:1em;
+}
+
+.work-summary {
+	margin:16px 0 0 0;	
+}
+
+.work-details .button {
+	margin:48px 0 0 0;
+}
+

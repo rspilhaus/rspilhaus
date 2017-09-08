@@ -1,0 +1,18 @@
+{
+  "name": "RyanSpilhaus",
+  "description": "Ryan Spilhaus' Website",
+  "version": "5.0.0",
+  "repository": "https://github.com/rspilhaus/rspilhaus",
+  "homepage": "https://ryanspilhaus.com/",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "grunt": "~1.0.0",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0",
+    "grunt-webp": "0.0.4"
+  }
+}
