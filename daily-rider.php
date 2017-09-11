@@ -15,17 +15,11 @@
 	</div><!-- end .bigtext-right -->
 </section><!-- end .bigtext-wrap -->
 
-
 <div class="showcase">
-
 	<img src="/build/images/work/tdr/1.jpg" alt="Sample of Work">
 	<img src="/build/images/work/tdr/2.jpg" alt="Sample of Work">
 	<img src="/build/images/work/tdr/3.jpg" alt="Sample of Work">
 	<img src="/build/images/work/tdr/4.jpg" alt="Sample of Work">
-
 </div>
-
-
-
 
 <?php include('footer.php'); ?>
