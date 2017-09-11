@@ -1,7 +1,6 @@
 <?php 
 	$pageTitle = "Ryan Spilhaus dot Com | Front-End Developer &amp; Designer";
 	include('header.php'); 
-
 ?>
 
 <section class="hero">
@@ -30,6 +29,7 @@
 		<a href="/mbb-agency" class="button">View Project</a>
 	</div><!-- end .work-details -->
 </section><!-- end .work -->
+
 <section class="work">
 	<a href="/daily-rider" class="work-image"><img src="/build/images/work/home/thedailyrider.jpg" alt=""></a>
 	<div class="work-details">
@@ -39,6 +39,7 @@
 		<a href="/daily-rider" class="button">View Project</a>
 	</div><!-- end .work-details -->
 </section><!-- end .work -->
+
 <section class="work">
 	<a href="/niagara" class="work-image"><img src="/build/images/work/home/niagara.jpg" alt=""></a>
 	<div class="work-details">
@@ -48,6 +49,7 @@
 		<a href="/niagara" class="button">View Project</a>
 	</div><!-- end .work-details -->
 </section><!-- end .work -->
+
 <section class="work">
 	<a href="/fccpt" class="work-image"><img src="/build/images/work/home/fccpt.jpg" alt=""></a>
 	<div class="work-details">
@@ -57,6 +59,7 @@
 		<a href="/fccpt" class="button">View Project</a>
 	</div><!-- end .work-details -->
 </section><!-- end .work -->
+
 <section class="work">
 	<a href="/emails" class="work-image"><img src="/build/images/work/home/email.jpg" alt=""></a>
 	<div class="work-details">
@@ -74,9 +77,7 @@
 	</div><!-- end .bigtext-wrap -->
 	<div class="bigtext-right">
 		<p>Hello, I’m Ryan Spilhaus. I’m a front-end developer + designer living in Kansas City. I’m passionate about building amazing things for the web, and I’ve spent years honing my craft at digital and advertising agencies. </p>
-
 		<p>Although my expertise is in front-end development, I have experience with each stage involved in a web project, from strategy to wireframing to design to development.</p>
-		
 		<p>My skills include:</p>
 		<p>
 			- HTML/CSS + SASS<br>
@@ -92,10 +93,6 @@
 	</div><!-- end .bigtext-right -->
 </section><!-- end .bigtext-wrap -->
 
-
-
 <?php 
-	
 	include('footer.php'); 
-	
 ?>
