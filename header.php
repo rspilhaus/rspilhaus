@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 	<head>
 	<link href='https://fonts.googleapis.com/css?family=Rubik:700|Source+Code+Pro:400' rel='stylesheet' type='text/css'>	
 		
