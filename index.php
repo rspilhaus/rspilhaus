@@ -68,7 +68,7 @@
 		<p class="work-summary">Even with the proliferation of social media, email still provides one of the best ROIs out there. I know what it takes to make sure your email looks great in any client.</p>
 		<a href="/emails" class="button">View Project</a>
 	</div><!-- end .work-details -->
-</section><!-- end .work -->
+</div><!-- end .work -->
 
 <div class="bigtext-wrap is-offwhite" id="about">
 	<div class="bigtext-left">
