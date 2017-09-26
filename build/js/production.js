@@ -580,7 +580,7 @@
 
 }));
 fitty('.fit-text', {
-  minSize: 12,
+  minSize: 32,
   maxSize: 112
 });
 
